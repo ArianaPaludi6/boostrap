@@ -1,0 +1,295 @@
+/* fuentes google */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+/* end  */
+
+
+
+body {
+    background-color: #faf5ee;
+}
+
+/* color de nav */
+.nav {
+    background-color: #7FBABE !important;
+}
+
+
+
+/* seccion regala */
+.regala {
+    width: 100%;
+}
+.seccionRegala {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.seccionRegala img {
+    width: 200px;
+}
+.regala h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    color: #ce8c98;
+}
+.regala p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: auto;
+}
+/* seccion box dulce */
+.boxDulce h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    color: #ce8c98;  
+}
+.boxDulce p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: auto;
+}
+.seccionBox {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
+.seccionBox img {
+    width: 200px;
+}
+.boxDulce {
+    width: 100%;
+}
+
+/* ajustes carousel */
+.carouselFotos {
+    width: 100%;
+    margin: auto;
+}
+
+.container-fluid img {
+    width: 120px;
+}
+/* ajuste boton */
+.boton{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* footer*/
+footer{
+    background-color: #7FBABE;
+}
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+}
+.redes {
+    border-bottom: 2px solid #888888;
+}
+.contacto{
+    display: flex;
+    flex-direction: column;
+}
+.contacto h2 {
+font-size: 1em;
+}
+.contacto p {
+    font-size: 0.8em;
+}
+.dataFiscal h2{
+    font-size: 1em;
+}
+.dataFiscal img{
+    width: 55px;
+}
+.tarjetas img {
+    width: 35px;
+}
+.dataFiscal{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Seccion quienes somos */
+
+.lugar h2 {
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    color:black;
+}
+button {
+    background-color: #ce8c98;
+    border-radius: 10px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    color:black;
+}
+.lugar {
+    background-image: url(../img/franquisia.jpg);
+    background-repeat: no-repeat;
+    height: 200px;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cartas h5 {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem; 
+    font-weight: 600;
+    text-align: center;
+}
+.cartas p {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 30px;
+}
+.susana {
+    text-align: center;
+}
+.style {
+    font-family: 'Rampart One', cursive;
+    font-weight: 900;
+    color:#ce8c98;
+    font-size: 1rem;
+
+}
+.styleOne {
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #f09cc0;
+
+}
+.sobreNosotros{
+    display: flex;
+    flex-direction: column;
+}
+
+.abundante{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.susana p {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.styleTwo {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+}
+
+.trend{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.somos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.abundante img{
+    width: 100px;
+}
+
+.trend img{
+    width: 100px;
+}
+
+.somos img{
+    width: 100px;
+}
+/* seccion contacto */
+
+/* contacto */
+.mapa{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+/* seccion productos */
+  .compra h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 900;
+  }
+.productos {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+@media screen and (min-width:768px) {
+    .carouselFotos {
+        width: 60%;
+
+    }
+    .boxDulce {
+        width: 40%;
+    }
+    .regala{
+        width: 40%;
+    }
+    .dataFiscal h2 {
+        margin: auto;
+    }
+    .sobreNosotros{
+        flex-direction: row;
+    }
+    .seccionRegala img{
+        width: 300px ;
+
+    }
+    .seccionBox img {
+        width: 300px;
+    }
+    .abundante {
+        width: 33%;
+    }
+    .trend {
+        width: 33%;
+    }
+    .somos{
+        width: 33%;
+    }
+
+.productos {
+    flex-direction: row;
+}
+.dataFiscal img{
+    width: 60px;
+}
+
+}
