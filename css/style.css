@@ -127,11 +127,18 @@ font-size: 1em;
 
 /* Seccion quienes somos */
 
+
 .lugar h2 {
     font-family: 'Mochiy Pop One', sans-serif;
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 1.5rem;
     color:black;
+}
+.lugar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 button {
     background-color: #ce8c98;
@@ -141,16 +148,7 @@ button {
     font-size: 1rem;
     color:black;
 }
-.lugar {
-    background-image: url(../img/franquisia.jpg);
-    background-repeat: no-repeat;
-    height: 200px;
-    background-size: contain;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+
 .cartas h5 {
     font-family: 'Lato', sans-serif;
     font-size: 1.2rem; 
@@ -291,5 +289,6 @@ button {
 .dataFiscal img{
     width: 60px;
 }
+
 
 }
